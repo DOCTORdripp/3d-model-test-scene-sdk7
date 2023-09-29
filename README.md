@@ -8,7 +8,7 @@ A simple 4x4 SDK7 scene designed for batch testing 3D assets in Decentraland
 
 ## Instructions
 
-Use this file to quick place items in a fresh SDK7 environment. By default, there are 11 items loaded onto this 4x4 space. Copy up to 11 models into /models folder and rename 1.glb through 11.glb for easy batch testing.
+Use this file to quick place items in a fresh SDK7 environment. By default, there are 11 items loaded onto this 4x4 space. **Copy up to 11 models into /models folder and rename 1.glb through 11.glb for easy batch testing.**
 
 ## How does it work?
 
