@@ -16,20 +16,17 @@ Spawn items with one line of code and 3 different options:
 
 **WORLD CENTER**
 
-Spawn a static model from world center with 
-
+Spawn a static model from world center with: 
 ```classSpawner('models/1.glb');```
 
 **CUSTOM POSITION**
 
-Spawn a model with custom positioning with 
-
+Spawn a model with custom positioning with: 
 ```elementSpawner('models/1.glb', Vector3.create(8, 0, 8));```
 
 **CUSTOM POSITION, SCALE & ROTATION**
 
-Spawn a model with custom positioning, scale, and rotation with 
-
+Spawn a model with custom positioning, scale, and rotation with: 
 ```customSpawner('models/1.glb', Vector3.create(1, 2, 2), Vector3.create(2, 2, 2), Quaternion.fromEulerDegrees(180, 0, 0));```
 
 ## Try it out
