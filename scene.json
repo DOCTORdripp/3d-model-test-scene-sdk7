@@ -1,0 +1,75 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "name": "iwb-3d",
+  "display": {
+    "title": "IWB 3D Model Testing",
+    "description": "Test 3D Models in world",
+    "navmapThumbnail": "scene-thumbnail.png",
+    "favicon": "favicon_asset"
+  },
+  "owner": "",
+  "contact": {
+    "name": "LASTslicee",
+    "email": ""
+  },
+  "main": "bin/index.js",
+  "tags": ["atlas:*"],
+  "scene": {
+    "parcels": [
+      "10,1",
+      "10,2",
+      "10,3",
+      "10,4",
+      "11,1",
+      "11,2",
+      "11,3",
+      "11,4",
+      "12,1",
+      "12,2",
+      "12,3",
+      "12,4",
+      "13,1",
+      "13,2",
+      "13,3",
+      "13,4"
+    ],
+    "base": "10,1"
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": [
+          0,
+          3
+        ],
+        "y": [
+          0,
+          0
+        ],
+        "z": [
+          0,
+          3
+        ]
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ],
+  "requiredPermissions": [
+    "ALLOW_TO_TRIGGER_AVATAR_EMOTE",
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE",
+    "ALLOW_MEDIA_HOSTNAMES"
+  ],
+  "rotation" : "east",
+  "allowedMediaHostnames": [
+    "decentraland.org",
+    "player.vimeo.com"
+  ],
+  "featureToggles": {}
+}
