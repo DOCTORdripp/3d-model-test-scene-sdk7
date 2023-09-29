@@ -7,8 +7,8 @@ export function classSpawner(model: string): Entity {
     const spawnBuilding = engine.addEntity();
     GltfContainer.create(spawnBuilding, { src: model });
     Transform.create(spawnBuilding, {
-        position: Vector3.create(8, 0, 8),
-        rotation: Quaternion.fromEulerDegrees(0, 180, 0)
+        position: Vector3.create(32, 0, 32),
+        rotation: Quaternion.fromEulerDegrees(0, 0, 0)
     });
 
     return spawnBuilding;
@@ -21,7 +21,7 @@ export function elementSpawner(model: string, position: Vector3): Entity {
     GltfContainer.create(spawnElement, { src: model });
     Transform.create(spawnElement, {
         position,
-        rotation: Quaternion.fromEulerDegrees(0, 180, 0)
+        rotation: Quaternion.fromEulerDegrees(0, 0, 0)
     });
 
     return spawnElement;
